@@ -24,35 +24,41 @@
                     </div>
                 </div>
             </form>
-            <div class="WeatherInfo">
+    <div class="WeatherInfo">
             <div class="row">
-            <h1>Amsterdam</h1>
-            <ul>
+                <div class="col-6">
+                    <h1>Amsterdam</h1>
+                <ul>
                 <li>
                     <span>
                         Wednesday 18:42
                     </span>
                     , sunny
                 </li>
-                <li>Humidity: <strong>23%</strong>, Wind: <strong>4 km/h</strong></li>
-            </ul>
-        </div>
-        <div class="col-6 col-md-6 col-sm-8">
-            <div class ="temperature-container d-flex justify-content-end">
-                <canvas width="52" height="52">
+                <li>Humidity: 
+                    <strong>23%</strong>, Wind: 
+                    <strong>4 km/h</strong>
+                </li>
+                </ul>
+                </div>
+        
+
+            <div class="col-6 col-md-6 col-sm-8">
+                <div class ="temperature-container d-flex justify-content-end">
+                <canvas width="52" height="52"></canvas>
+                    <div>
+                        <span class="temperature">13</span>
+                        <span class="unit">°C</span>
+                    </div>
+                </div>
             </div>
-            <div>
-                <span class="temperature">13</span>
-                <span class="unit">°C</span>
             </div>
-        </div>
-        </div>
-    </div>
+    
     <div class="WeatherForecast row">
         <div class="col">
             <div class="WeatherForecastPreview">
                 <div class="forecast-time">Tue</div>
-                <canvas width="38" height="38">
+                <canvas width="38" height="38"></canvas>
                 <div class="forecast-temperature">
                     <span class="forecast-temperature-max">11°</span>
                     <span class="forecast-temperature-min">3°</span>
@@ -62,7 +68,7 @@
         <div class="col">
             <div class="WeatherForecastPreview">
                 <div class="forecast-time">Wed</div>
-                <canvas width="38" height="38">
+                <canvas width="38" height="38"></canvas>
                 <div class="forecast-temperature">
                     <span class="forecast-temperature-max">9°</span>
                     <span class="forecast-temperature-min">2°</span>
@@ -72,7 +78,7 @@
         <div class="col">
             <div class="WeatherForecastPreview">
                 <div class="forecast-time">Thu</div>
-                <canvas width="38" height="38">
+                <canvas width="38" height="38"></canvas>
                 <div class="forecast-temperature">
                     <span class="forecast-temperature-max">15°</span>
                     <span class="forecast-temperature-min">6°</span>
@@ -82,7 +88,7 @@
         <div class="col">
             <div class="WeatherForecastPreview">
                 <div class="forecast-time">Fri</div>
-                <canvas width="38" height="38">
+                <canvas width="38" height="38"></canvas>
                 <div class="forecast-temperature">
                     <span class="forecast-temperature-max">13°</span>
                     <span class="forecast-temperature-min">8°</span>
@@ -92,21 +98,24 @@
         <div class="col">
             <div class="WeatherForecastPreview">
                 <div class="forecast-time">Sat</div>
-                <canvas width="38" height="38">
+                <canvas width="38" height="38"></canvas>
                 <div class="forecast-temperature">
                     <span class="forecast-temperature-max">19°</span>
                     <span class="forecast-temperature-min">11°</span>
                 </div>
                 </div>
             </div>
-        </div>
-        <footer>
-            <a href="https://github.com/Jessielywan/Vanilla-weather-app" targer="_blank">Open-source code</a> by Jessie Wan
-        </footer>
-        </div>
+                </div>
+                    <footer>
+                        <small>
+                            <a href="https://github.com/Jessielywan/Vanilla-weather-app" targer="_blank">Open-source code</a> by Jessie Wan
+                        </small>
+                    </footer>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
     <script src="src/app.js"></script>
 </body>
 </html>
