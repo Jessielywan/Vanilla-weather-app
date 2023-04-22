@@ -18,12 +18,12 @@ function formatDate(timestamp) {
         "Saturday"
     ];
     let day = days[date.getDay()];
+    
     return `${day} ${hours}:${minutes}`;
 }
 
 
 function displayTemperature(response) {
-    console.log(response.data);
     let currentTemperature = document.querySelector(".temperature");
     let currentCity = document.querySelector("#city");
     let descriptionElement = document.querySelector("#description");
