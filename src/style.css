@@ -50,12 +50,18 @@ body {
 
 .Weather h1 {
     margin: 20px 0 10px 0;
-    line-height: 29px;
     font-weight: bold;
     font-size: 38px;
     line-height: 48px;
 
     color: #c45985;
+}
+
+.Weather h2 {
+    font-size: 23px;
+    line-height: 25px;
+
+    color: rgba(183, 137, 164, 0.8);
 }
 
 .Weather .temperature {
@@ -81,6 +87,7 @@ body {
 }
 
 .Weather li {
+    text-transform: capitalize;
     font-weight: 500;
     margin-bottom: 5px;
     color:rgba(203, 151, 181, 0.8);
