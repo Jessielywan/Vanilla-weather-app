@@ -45,7 +45,7 @@ body {
     font-size: 18px;
     padding: 15px 0;
     height: 50px;
-    line-height: 20px;
+    line-height: 0px;
     width: 150px;
 }
 
@@ -100,23 +100,6 @@ li:first-letter {
     text-transform: capitalize;
 }
 
-.WeatherForecast {
-    border-bottom: 1px solid;
-    margin: 40px 0;
-    padding-bottom: 50px;
-    text-align: center;
-}
-
-.WeatherForecast .forecast-time {
-    color: rgba(203, 151, 181, 0.8);
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-}
-
-.WeatherForecast .forecast-temperature {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5;
+footer {
+    padding-top: 30px;
 }
